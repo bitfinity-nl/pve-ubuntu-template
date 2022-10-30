@@ -5,3 +5,5 @@ Script for creating Ubuntu template for PromoxVE
 - git clone https://github.com/bitfinity-nl/pve-ubuntu-template.git
 - cd pve-ubuntu-template/
 - bash ./prepare-ubuntu.sh
+- add cloud-init drive
+- convert to template
