@@ -2,4 +2,4 @@
 Script for creating Ubuntu template for PromoxVE
 
 - sudo su
-- git clone
+- git clone https://github.com/bitfinity-nl/pve-ubuntu-template.git
