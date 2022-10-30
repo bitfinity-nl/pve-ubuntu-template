@@ -18,7 +18,6 @@
 # Update and upgrade system
 apt update && apt -y upgrade && apt -y autoremove && apt clean
 
-
 # Clear OpenSSH hostkeys
 sudo rm ssh_host_*
 
