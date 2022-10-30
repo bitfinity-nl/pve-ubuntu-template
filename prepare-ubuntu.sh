@@ -41,9 +41,6 @@ EOF
 
 # this is super important, netplan files are not regenerated if they exist
 mv /etc/netplan/00-installer-config.yaml /etc/netplan/01-netcfg.yaml
-#rm -f /etc/netplan/00-installer-config.yaml
-#rm -f /etc/netplan/50-cloud-init.yaml
-
 
 # Clean Cloudinit
 cloud-init clean
